@@ -10,4 +10,39 @@ Xcode is developed by apple   for debugging and creating applications for macOS,
 Android Studio: is developed by Google specifically designed for building debugging and testing android applications
 
 popular code editors(they focus on the primarly on text content while the IDEs esposive various tools to manage your code)
-sublime Text ,Motepad++
+sublime Text ,Notepad++
+
+A cloud based editor is an online tool that allows you to write,edit and amanage code or text directly thoruhg a web browser without needing to install software locally
+
+-Replit is an nonline platform that provides a collaborative envireonment for coding, allowing users to write , run and share code in various language directly form a web browser.
+-Github Codespacces
+-Ona claoud based development envireonment that integrates with GitHub and GitLab offering customizable workspaces for coding building and debugging directly from youe browser
+
+
+the worksapce is whichever the directory you open in vs code
+
+CLI we have powershel and command propmt
+to make a new directory we write mkdir which is in full means make directory mkdir nameofproject
+
+some shortcuts
+
+ctrl+shift+F when you need to find and replace 
+ctrl+shif+K to remove a line after selecting it
+to increase the code size ctrl + plus or ctrl + -
+
+
+the Vs code Extensions that you need
+
+Better Comments
+Code spell
+Error Lens
+Indent Rinbow
+Icon Pack
+//another thing you may need the extension depending on the language that you are using like if you are using js you may need prettier but when you need like preety TYpescript for the typescript errors
+
+in js we create the big int by adding n to the end of a large number
+javascript dynamically typing allows variables to change types freely which offers flexibility but can lead to unexpected errors.
+
+statically type requires you to write the varibable type before the value.
+
+typeof operator it helps you to indicate the string of the type
