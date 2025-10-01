@@ -1,0 +1,13 @@
+CASCADING
+it means css files must be arranginf in a specific order
+
+popular IDEs
+
+visual studio is developed by microsoft used for building debugging and deploying applications across various platforms
+Xcode is developed by apple   for debugging and creating applications for macOS,iOS,watchOS and tv iOS
+
+
+Android Studio: is developed by Google specifically designed for building debugging and testing android applications
+
+popular code editors(they focus on the primarly on text content while the IDEs esposive various tools to manage your code)
+sublime Text ,Motepad++
