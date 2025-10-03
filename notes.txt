@@ -70,4 +70,32 @@ when you have the arrays you specify the index that you want to start from
 
 prompt() method is one of easy ways to get the input from the user through a small pp-up box
 
-the trim() method allow us to remove the whitespaces 
+the trim() method allow us to remove the whitespaces at end or start when not specified they are removed from the at start alone.
+we have the trimEnd
+trimStart
+.replace method()
+this is method that is used to replace a substring in a given sentence
+.replace("the search word","the word to be replaced");
+.repeat is used to repeat a given word or string in different times depending on what is in the brackets
+so to make the repeat works you dont have to put the negative numbers and the infinity still it cant work
+also it provide the the repetition without adding some spaces
+
+.when the repeat method contains (0) then you gona get "" becouse its like nothing which is in so
+
+string
+is group of characters that are wrapped in quotations,backsticks or single quote
+
+the meaning of ASCII Advanced Systematic Code for Internal Interchange
+
+when the arithematic operation + sign is gonna return the string when they are combined with the number like the string whena dded to a number
+but other like the -,*,/ are gonna return number when they are used with the number strings
+
+//when we have more than one operators how do javascript handles it
+
+//we have to start with the multiplication first then we move to
+//  the addition and then the substraction and we move just like that
+//but when there is brackets it first make whats in the brackets
+
+when we have minus and plus then we have to start on the minus then we move to the plus sign
+
+to override the presedence in js you have to use the bracket like you have to make the 
