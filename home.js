@@ -66,8 +66,18 @@ console.log(a||b&&c);
 
 
 let x=5;
+//but htis one increment directly
 console.log(++x); //this is gonna return 6;
 console.log(x++);//this is gonna return  be 5
+//cz it firdt return the value and then increment after
+console.log(x)
 //then after its gonna be 6
 
 
+let f=5;
+let d=f++;
+//this is gonna return the value of f first because you know that the post increment the way it works is it first return the value it had before  but then 
+console.log(d++);
+console.log(d);
+
+//to update our value immediatly we use the prefix

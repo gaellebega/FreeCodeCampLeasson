@@ -98,4 +98,17 @@ but other like the -,*,/ are gonna return number when they are used with the num
 
 when we have minus and plus then we have to start on the minus then we move to the plus sign
 
-to override the presedence in js you have to use the bracket like you have to make the 
+to override the presedence in js you have to use the bracket like you have to make the values have the high priority
+
+also when we are to update our value immediatly we use the prefix
+
+COMPOUND operators
+these are  the js shortcuts that combine an arithematic operation with assignment =+,=- all in one step;
+
+x = x + 5; which is the same as writting x+=5
+x = x-4;same as x-=4;
+BOOLEAN allows you to do something basing on a specific reason
+
+JavaScript avoid type coercion?
+=== and !==.
+Type coercion means JavaScript automatically converts one data type into another when it needs to — usually between strings and numbers or booleans.
