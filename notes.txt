@@ -112,3 +112,12 @@ BOOLEAN allows you to do something basing on a specific reason
 JavaScript avoid type coercion?
 === and !==.
 Type coercion means JavaScript automatically converts one data type into another when it needs to — usually between strings and numbers or booleans.
+
+Unary operator
+unary operator concerts its operand into a number. if operand is already a number it remains unchanged
+we have:
+unary negation
+unary plus
+logical Note
+the not Bitwise which is used too change the number into binary
+the tyeof it checks the tyoe of the string

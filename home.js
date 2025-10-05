@@ -81,3 +81,29 @@ console.log(d++);
 console.log(d);
 
 //to update our value immediatly we use the prefix
+
+//Unary Operator
+//we use it to convert numbers
+const str="42";
+const strToNum=+str;
+console.log(typeof strToNum);
+console.log(typeof str);
+
+const stri="34";
+const striToNegative=-stri;
+console.log(typeof stri)
+console.log(striToNegative);
+
+let isOnline=true;
+console.log(!isOnline);//here is gonna be false;
+let isOffline=false;
+console.log(!isOffline);//here is gona be true;
+
+
+const num=5;
+console.log(~num); //because to get to get
+
+//void return the undefined;
+
+const results=void(2+3);
+console.log(results);
