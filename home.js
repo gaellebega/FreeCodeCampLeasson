@@ -195,3 +195,9 @@ const numRounded=Math.round(2.7);
 console.log(numRounded);
 const numRounded2=Math.round(11.2);
 console.log(numRounded2);
+
+
+//to get the random number between 1 and 5 you gonna get it like this
+
+Math.floor(Math.random()*5)+1;
+//because the numbers were 6and 1 so its gonna be *(5-1+1)+1
