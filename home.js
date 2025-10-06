@@ -107,3 +107,83 @@ console.log(~num); //because to get to get
 
 const results=void(2+3);
 console.log(results);
+
+if(null){
+  console.log("it will not run");
+}
+if("freeCodeCamp"){
+  console.log("it willl run");
+}
+
+const ages=34;
+if(ages>30){
+  console.log("you are allowed to enter int he group");
+}
+else{
+  console.log("please go out");
+}
+
+const prompt = require('prompt-sync')();
+let score =prompt("enter your score:")
+
+if(score>=90){
+  console.log("You have got A")
+}
+else if(score==200){
+console.log("ypu are above the grade required go back to the school")
+}
+else if(score>=100){
+console.log("thansk you have got full  marks")
+}
+else if(score>=98){
+console.log("congrats, Almost 100")
+}
+else{
+console.log("You are out of the console :(")
+}
+
+let temperature=20;
+const weather = temperature >25?"sunny":"cool";
+console.log(`Today it is currently ${weather} day!`)
+
+const smallest = Math.min(1,2,3,4,5,);
+console.log(smallest);
+
+const Largest=Math.max(1,2,3,4,5);
+console.log(Largest);
+
+//to round the numbers if you want you may use this
+
+console.log(Math.ceil(4.5))//5 increase
+console.log(Math.floor(4.5));//4 decrease
+//Math.round is the hybrid of both math.ceil and maths.floor
+//like it round to the nearest number
+
+//math.trunc is used to remove the decimal part of the number
+
+console.log(Math.trunc(2.9));//2
+console.log(Math.trunc(9.1));//9
+
+console.log(Math.sqrt(81));//7
+console.log(Math.cbrt(27));//3
+
+//if you need to get the absolute value of a number you gonna do like this
+
+console.log(Math.abs(-5));
+console.log(Math.abs(5));
+
+console.log(Math.pow(2,3))//to mean this is ginna be 2 power 3
+console.log(Math.pow(5,3))//5 power 3
+
+let randomNum = Math.random()
+console.log(randomNum);
+
+console.log("now generate a random number between these two")
+let min=1;
+let max=100;
+console.log(Math.random(min,max));
+
+//this is the formula to generate the random number athat are between 2 values
+//which is gonna produce the floating number that are between those 2
+Math.random()*(maximum-minimum) + minimum;
+//example in the usage

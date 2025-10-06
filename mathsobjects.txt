@@ -1,0 +1,56 @@
+Methods:
+The Math object offers a wide range of methods for various mathematical operations, including: 
+Rounding:
+Math.round(x): Rounds x to the nearest integer.
+
+Math.ceil(x): Rounds x up to the nearest integer.
+
+Math.floor(x): Rounds x down to the nearest integer.
+
+Math.trunc(x): Returns the integer part of x (removes fractional digits).
+
+
+Exponents and Roots:
+
+
+Math.pow(base, exponent): Returns base raised to the power of exponent.
+
+Math.sqrt(x): Returns the square root of x.
+
+Math.cbrt(x): Returns the cube root of x.
+
+
+Trigonometry:
+
+
+Math.sin(x), Math.cos(x), Math.tan(x): Sine, cosine, and tangent of x (in radians).
+
+Math.asin(x), Math.acos(x), Math.atan(x): Arcsine, arccosine, and arctangent.
+
+Math.atan2(y, x): Returns the arctangent of the quotient of its arguments.
+
+
+Other:
+
+
+Math.abs(x): Returns the absolute value of x.
+
+Math.max(x1, x2, ...): Returns the largest of the given numbers.
+
+Math.min(x1, x2, ...): Returns the smallest of the given numbers.
+
+Math.random(): Returns a pseudo-random floating-point number between 0 (inclusive) and 1 (exclusive).
+
+Math.log(x): Returns the natural logarithm (base E) of x.
+
+Math.exp(x): Returns E^x.
+
+Example Usage:
+
+JavaScript
+
+console.log(Math.PI); // Output: 3.141592653589793
+console.log(Math.round(4.7)); // Output: 5
+console.log(Math.floor(4.9)); // Output: 4
+console.log(Math.random()); // Output: A random number between 0 and 1
+console.log(Math.sqrt(16)); // Output: 4

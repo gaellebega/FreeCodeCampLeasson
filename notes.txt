@@ -121,3 +121,47 @@ unary plus
 logical Note
 the not Bitwise which is used too change the number into binary
 the tyeof it checks the tyoe of the string
+
+What Are Conditional Statements, and How Do If/Else If/Else Statements Work?
+
+flasy value
+false,0,-0,"",undefined,NaN,null
+ 
+ truthy values
+ non-empty strings like "hello",arrays,objects,the boolean true
+
+ the falsy value inside the console will never run
+
+ //Terinary operators
+ condition ? expressionIfTrue : expression if the condition is false;
+ What's a compact way to write simple if/else statements? using the terinary operator
+
+ how can you check for the multipe conditions in ana if statementsby using the else if
+
+
+ Binary operators and how do they work
+ Binary logical operators help you evaluate two expressions and return a result based on their truthiness. 
+ logical And(&&)
+logical Or(||)
+The nullish coalescing operator(??)
+
+✅ Summary:
+Use ?? to handle null or undefined.
+It returns the second value only if the first is null or undefined.
+Does not treat 0, false, or '' as nullish.
+Syntax: let result = value ?? defaultValue.
+
+logical pr if one is atleast true;
+
+
+math objects
+The Math.random() method generates a random floating-point number between 0 (inclusive) and 1 (exclusive).0 is included but 1 is excluded
+Math.min() it checks the smallest number in the object.
+Math.max() it checks the largest nunber in the object.
+
+Why is Math.round() considered a hybrid of Math.ceil() and Math.floor()?
+It rounds numbers to the nearest integer, using both rounding up and down depending on the decimal.
+
+
+Rounds a number down, regardless of the decimal point.
+What does the Math.floor() function do?
