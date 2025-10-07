@@ -165,3 +165,8 @@ It rounds numbers to the nearest integer, using both rounding up and down depend
 
 Rounds a number down, regardless of the decimal point.
 What does the Math.floor() function do?
+
+parseInt and parseFloat are used to convert a string to numbers
+
+when we want to convert a string but it has the leters before it then we gonna get NaN
+when we have like this 2.13.45 its gonna reruen the first 3 only and then ignores others
