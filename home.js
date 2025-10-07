@@ -201,3 +201,9 @@ console.log(numRounded2);
 
 Math.floor(Math.random()*5)+1;
 //because the numbers were 6and 1 so its gonna be *(5-1+1)+1
+//if you try to divide a number by 0 then js will return the infinity
+
+//when we have something like this
+let problem=2**(3**2);
+//then js is gonna make it like this
+console.log(problem);
