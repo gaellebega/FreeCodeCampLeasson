@@ -207,3 +207,6 @@ Math.floor(Math.random()*5)+1;
 let problem=2**(3**2);
 //then js is gonna make it like this
 console.log(problem);
+
+//to fixed without any arguments it defaults to 0 decimal places
+//when we use to fixed is gonna return the string as the value and change the last item
