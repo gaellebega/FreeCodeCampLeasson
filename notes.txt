@@ -170,3 +170,7 @@ parseInt and parseFloat are used to convert a string to numbers
 
 when we want to convert a string but it has the leters before it then we gonna get NaN
 when we have like this 2.13.45 its gonna reruen the first 3 only and then ignores others
+
+awitch case is likely to use the Strict equal over other Comparison operators
+
+When you use break in a switch case, it stops the execution of the switch statement and exits the block immediately, so the program does not continue to check or execute the next cases.
