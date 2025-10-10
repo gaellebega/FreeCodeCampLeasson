@@ -174,3 +174,16 @@ when we have like this 2.13.45 its gonna reruen the first 3 only and then ignore
 awitch case is likely to use the Strict equal over other Comparison operators
 
 When you use break in a switch case, it stops the execution of the switch statement and exits the block immediately, so the program does not continue to check or execute the next cases.
+
+
+what is the result of the expression undefined>0
+=> false
+4.
+ 
+What is a truthy and falsy value?
+
+A value that is considered true or false when encountered in a Boolean context.
+7.
+ 
+What happens when you don't include break while implementing a switch statement?
+The code continues to evaluate the following case statements, even after finding a match.
