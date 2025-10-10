@@ -5,13 +5,30 @@ anonymus function is the function without a name that can be assigned to a varia
 when the return is not specified we are gonna get an error called undefined
 
 ARROW FUNCTIONS
-first what is the noremal functions this means are reusabke peices of code that help your code more modular, easier to mantain and more efficient.
+1.first what is the noremal functions this means are reusabke peices of code that help your code more modular, easier to mantain and more efficient.
 
-when we create the arrow functions in js we dont have to write the word function
+2.when we create the arrow functions in js we dont have to write the word function
 👉 You remove the function keyword and add => between the parameters and the body.
-if the function has one statement that retun a value, you can remove the {} and the return keywords
-if also there is only one parameter there is gonna be no reason to add the ()
+3.if the function has one statement that retun a value, you can remove the {} and the return keywords
+4.if also there is only one parameter there is gonna be no reason to add the ()
 
 ex: const greet = name =>"Hello"+name;
 same as
 const greet=(name)=>"Hello"+name;
+6.when you want to retun an object you gonna need to make this like wrap the objec in the brackets({name:"uwimana,age:23;}) otherwise the js will think it was not the bject but the function bpdy
+
+another thing the arrow functions do not thvae their own this, they use the this from where they were created
+
+7.no arguments object
+arrow functions they dont have their own arguent objects
+
+
+if your arrow function has no parameters then you must use the parantensis like this:
+
+const greetings=name=>{
+  console.log("Hello"+name+"!")
+}
+
+const greetings()=>{
+  console.log("Hello")
+}
