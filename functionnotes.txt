@@ -1,0 +1,17 @@
+the variable inside the parameter ex:name is called  parameter but the value is inside is called argument ex:alice,aline
+
+anonymus function is the function without a name that can be assigned to a variable like this
+
+when the return is not specified we are gonna get an error called undefined
+
+ARROW FUNCTIONS
+first what is the noremal functions this means are reusabke peices of code that help your code more modular, easier to mantain and more efficient.
+
+when we create the arrow functions in js we dont have to write the word function
+👉 You remove the function keyword and add => between the parameters and the body.
+if the function has one statement that retun a value, you can remove the {} and the return keywords
+if also there is only one parameter there is gonna be no reason to add the ()
+
+ex: const greet = name =>"Hello"+name;
+same as
+const greet=(name)=>"Hello"+name;
