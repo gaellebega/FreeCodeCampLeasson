@@ -210,3 +210,28 @@ console.log(problem);
 
 //to fixed without any arguments it defaults to 0 decimal places
 //when we use to fixed is gonna return the string as the value and change the last item
+
+
+//SCOPE OF VARIABLES
+//grobal
+let globalVar="Hey guyz am global varibale";
+function printGrobalVariable(){
+  console.log(globalVar);
+}
+printGrobalVariable();
+
+//local varibale
+
+function greet(){
+let message="Hello, I am Ishami with the local scope";
+console.log(message);
+}
+greet();
+//to be able to print this mesage alone we must first print it inside the function
+
+//the Block Scope
+if(true){
+  let blockVar="i am in the block";
+  console.log(blockVar);
+}
+//console.log(blockVar);//this will cz an error

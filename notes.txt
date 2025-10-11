@@ -187,3 +187,30 @@ A value that is considered true or false when encountered in a Boolean context.
  
 What happens when you don't include break while implementing a switch statement?
 The code continues to evaluate the following case statements, even after finding a match.
+
+what is the meaning of scope
+this is visibility and accessibility of variable in different parts of code.
+it determine where varibale can be accessed or modified.
+
+1.global
+can be accessed from anywhere
+2.Local scope
+variable onlya ccessed inside a function
+
+💡 Key rule:
+
+You can only access variables within their scope —
+if they are declared inside a function, they are not visible outside it.
+
+🧩 Tip:
+
+If you want to use a variable outside the function, you can:
+
+Declare it outside the function, or
+
+Return it from the function.
+
+3.Block scope
+introduces with the let and contains its code section within the curly braces{}
+such as if statements, for loops,while loops 
+
