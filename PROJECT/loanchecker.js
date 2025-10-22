@@ -14,5 +14,19 @@ if(annualIncome>=minIncomeForDuplex&& creditScore>=minCreditScoreForDuplex){
 else if(annualIncome>= minIncomeForCondo&&creditScore>=minCreditScoreForCondo){
   return "You qualify for a condo and car loan."
 }
+else if (creditScore >= minCreditScoreForCar && annualIncome >= minIncomeForCar){
+  return"you qualify for a loan";
 }
-console.log(getLoanMessage());
+else{
+      return "You do not qualify for any loan.";
+}
+}
+const duplexLoanMsg=getLoanMessage(8500,850);
+const condoLoanMsg=getLoanMessage(6500,690);
+const carLoanMsg=getLoanMessage(45000,660);
+const noLoanMsg=getLoanMessage(25000,550);
+
+console.log(duplexLoanMsg);
+console.log(condoLoanMsg);
+console.log(carLoanMsg);
+console.log(noLoanMsg);
