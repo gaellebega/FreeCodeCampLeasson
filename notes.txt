@@ -214,3 +214,11 @@ Return it from the function.
 introduces with the let and contains its code section within the curly braces{}
 such as if statements, for loops,while loops 
 
+what are the default parameter those are the values that are called inside the function like the arguments so there is no reeason to call them after
+
+// synthax of the arroe functions
+
+const functionName=parameter=>{
+  return what you want;
+}
+console.log(callfunction(arguments));

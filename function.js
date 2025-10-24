@@ -34,3 +34,41 @@ const calculateAreaa=(w,h)=>{
 }
 //when we have used the return then to be able to see our output we need to console the function itself
 console.log(calculateAreaa(5,8));
+
+function thisIsTrial(x,y,z){
+  //this is used to define the value to be returned when nothing to be returned then it is gonna be undefined
+  return x+y+z;
+}
+console.log(thisIsTrial(2,3,4));
+//example of a default parameter
+const calculateTotal=(amount,taxrate=0.05)=>{
+  return amount+(amount*taxrate)
+};
+console.log(calculateTotal(300));
+
+function greetMe(name="uwimana"){
+  console.log("hy"+" "+`${name}`);
+}
+greetMe();
+
+//function expressions are the functions that you assign to variables by doing like this
+
+const multiplyNumbers = function(firstName,secondName){
+  return firstName +" "+ secondName;
+}
+console.log(multiplyNumbers("Uwimana","Ange"));
+
+//Arrow functions are kinda same as the function expression except they dont have the  function thing
+
+const  calculateThisArea=(length,width)=>{
+const area = length * width;
+return `the area of the rectangele is ${area} square units.`;
+};
+console.log(calculateThisArea(30,40));
+
+
+const doThis=n=>{
+  return n+n*n;
+}
+console.log(doThis(4));
+//also if the dfunction have the single paraeter you can ommit the braces
