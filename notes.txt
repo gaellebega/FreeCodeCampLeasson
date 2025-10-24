@@ -222,3 +222,4 @@ const functionName=parameter=>{
   return what you want;
 }
 console.log(callfunction(arguments));
+//after the return the function ignores everything so when we have 2 return statements it is gonna take the first one always
