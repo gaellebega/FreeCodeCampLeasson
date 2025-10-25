@@ -223,3 +223,9 @@ const functionName=parameter=>{
 }
 console.log(callfunction(arguments));
 //after the return the function ignores everything so when we have 2 return statements it is gonna take the first one always
+
+meaning of the array methodswe have 2 array methods
+push method : which is the method which is used to add element at the end of an array
+pop method : which is used to to remove the last index in the list of an array elements
+unshift method is the method is used to add the elemnt at first index of an array
+shift method is used to remove the first index of an array
