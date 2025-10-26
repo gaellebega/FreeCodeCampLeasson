@@ -229,3 +229,10 @@ push method : which is the method which is used to add element at the end of an 
 pop method : which is used to to remove the last index in the list of an array elements
 unshift method is the method is used to add the elemnt at first index of an array
 shift method is used to remove the first index of an array
+
+ CONCLUSION ON PUSH POP SHIFT AND UNSHIFT
+For methods that remove items (shift() and pop()), 
+ create a variable to store the removed item.
+ For methods that add items (push() and unshift()), 
+ no need to create a variable because they return the new length, 
+and the item is already added to the array.

@@ -1,30 +1,57 @@
-//whe we have created any function and you pass the array in it as the parameter that is to mean that that value is going to be used for the function only but the lunches value i s gonna contain every value of the lunch
+//Build a Lunch Picker Program
+
 const lunches=[];
 
 function addLunchToEnd(arr,item){
-console.log(arr.push(item));
-console.log(`${item} added to the end of the lunch menu.`);
+arr.push(item);
+console.log(`${item} added to the end of the luch menu`);
 return arr;
 }
 
 function addLunchToStart(arr,item){
-console.log(arr.unshift(item))
-console.log(`${item} added to the start of the unch`)
-return arr;
-}
-
-function removeLastLunch(arr){
-    if (item=[]){
-    console.log("No lunches to remove.")
-  }
-  else{
-  console.log(arr.pop());
-  console.log(`${item} removed from the end  of the lunch menu.`)}
-
+  arr.ushift(item);
+  console.log(`${item} added to the start of the lunch menu`);
   return arr;
 }
 
-function removeFirstLunch(){
-  console.log(lunches.pop());
-  console.log(`${item} removed from the start of the lunch menu.`)
+function removeLastLunch(){
+  if(arr.length===0){
+console.log("No lunches to remove.")
+  }
+  else{
+    removedItem=arr.pop();
+    console.log(`${item} removed from the end of the lunch menu.`)
+  }
 }
+
+function removeFirstLunch(){
+  if(arr.length===0){
+    console.log("No lunches to remove")
+  }
+  else{
+    let removeditem=arr.shift();
+    console.log(`${removeditem} removed from the start of the lunch menu.`)
+  }
+}
+function getRandomLunch(){
+  if(arr.length===0){
+    console.log("No lunches available");
+  }
+  else{
+    const randomIndex=Math.floor(Math.random()*arr.length);
+    const randomElement=arr[randomIndex];
+    console.log(`Randomly selected lunch:${randomElement}`);
+  }
+}
+
+function showLunchMenu(){
+  if(arr.length===0){
+    console.log("The Menu is empty.")
+  }
+  else{
+    console.log(`Menu items: ${arr.join(",")}`)
+  }
+}
+//conslusion is for the method that removes like shift() and pop() you have to make something like this
+//to create the variable where those removed item should be.
+//but when there is push or unshift becouse you are already adding them in the array then there is no reason to create another
