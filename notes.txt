@@ -236,3 +236,13 @@ For methods that remove items (shift() and pop()),
  For methods that add items (push() and unshift()), 
  no need to create a variable because they return the new length, 
 and the item is already added to the array.
+
+
+the way we use the methods of slipt, reverse and join();
+is by thiswhen we use the split it is meaning that we have to make our variable separable so that is to mean we have to specify our separation
+when we write like this word.split("") split the word letter by letter like individually
+then word.split(" ") when there is the space then split the word wherever there is space to mean if
+we have like this example sentence =" hello world" and then we make sentence.split(" ") that is to mean that we are gonna get hello and world separetly
+but when awe also have to split at a given dash like this("-") it is gonna be separable only when we have reached to the dash
+
+//al the above methods to mean the split join and reverse they all provide the output in the arrays still

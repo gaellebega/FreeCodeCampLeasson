@@ -32,3 +32,11 @@ console.log(thirdColor); // "blue"
  console.log(newsentence.reverse());
  console.log(newsentence.join(""));
 //  console.log(word);
+
+let anotherword="Heloo"
+console.log(anotherword.split());
+
+let greeting="hello guyz";
+let solution=greeting.split("");
+solution.reverse();
+console.log(solution.join("-"));
