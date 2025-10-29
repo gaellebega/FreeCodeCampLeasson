@@ -22,3 +22,9 @@ else if(strokes>=par+3){
 }
 }
 console.log(golfScore(3,4));
+
+//make a function to reverse a word
+function reverseString(greeting){
+return greeting.split("").reverse().join("")
+}
+console.log(reverseString("Hello"));

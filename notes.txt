@@ -246,3 +246,14 @@ we have like this example sentence =" hello world" and then we make sentence.spl
 but when awe also have to split at a given dash like this("-") it is gonna be separable only when we have reached to the dash
 
 //al the above methods to mean the split join and reverse they all provide the output in the arrays still
+
+how to us eth eindexOf method in arrays
+
+arrays.indexOf(element,fromIndex)
+when the from index is not provided then the arays is gonna start where the array starts
+when the index is not found then we are going to get the -1 in return
+
+splice method allow us to modfy the array by add or remove elements from any position at the array
+
+you can also use the splice method to clear the arraylike by writting splice(0
+splice return array containing the removed elements)

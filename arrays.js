@@ -40,3 +40,26 @@ let greeting="hello guyz";
 let solution=greeting.split("");
 solution.reverse();
 console.log(solution.join("-"));
+
+let thisArray=["orange","banana","apple"]
+//this means the index of orange from the banana but we gonna use the index of the banana instead of writting the banana
+console.log(thisArray.indexOf("orange",3));
+//it is sterted from right to left.
+
+let schools=["gitwe","cst","kayonza"];
+//this is to mean that start from index 1 then remove 1 elemet
+console.log(schools.splice(1,1))
+console.log(schools.splice(1,2))
+console.log(schools);
+
+//we can also use the splice method to modfy the array
+//here is the way
+
+const colorss=["blue","red","orange","purple"];
+//start from index 1 chnage the next by remove 0 items then add the following items
+console.log(colorss.splice(1,0,"yellow","green"))
+console.log(colorss);
+
+let array=[1,2,3,4,5]
+console.log(array.splice(0))
+console.log(array);
