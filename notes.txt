@@ -257,3 +257,6 @@ splice method allow us to modfy the array by add or remove elements from any pos
 
 you can also use the splice method to clear the arraylike by writting splice(0
 splice return array containing the removed elements)
+
+
+//the summary of the study

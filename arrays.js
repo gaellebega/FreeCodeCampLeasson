@@ -63,3 +63,5 @@ console.log(colorss);
 let array=[1,2,3,4,5]
 console.log(array.splice(0))
 console.log(array);
+
+//include is to mean hera on this index if you find this number then return true if not then return false
