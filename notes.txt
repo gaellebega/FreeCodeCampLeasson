@@ -260,3 +260,12 @@ splice return array containing the removed elements)
 
 
 //the summary of the study
+4.
+ 
+What does the rest syntax do?
+It captures the remaining elements of an array into a new array.
+
+the meaning of the array destructing means capturing the whole array but getting them one by one
+indexOf is the methos to return the first index of an array
+
+the array method of return the new array without  changing the original array
