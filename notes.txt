@@ -269,3 +269,6 @@ the meaning of the array destructing means capturing the whole array but getting
 indexOf is the methos to return the first index of an array
 
 the array method of return the new array without  changing the original array
+concat method merges 2 arrays into one
+
+slice method return the new array without changing the orginalgit 
