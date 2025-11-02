@@ -53,5 +53,41 @@ console.log("name2" in oldFriends);
 
 //we also check if the property exist by doing this also
 
-console.log(oldFriends.name2 !== undefined);
+console.log(oldFriends.name2 !== undefined);//this is gonna return true cz the property name2 do exists
+console.log(oldFriends.color!== undefined);//this is gonna return false
 
+//nested objects
+const schools={
+  name:"UR",
+locations:{
+adress:"kigali",
+phone:{
+  whatsapp:"begs",
+}
+}
+
+}
+//you can also use this
+console.log(schools.locations.phone.whatsapp);
+//you can also use the bracket notation
+console.log(schools["locations"]["phone"]["whatsapp"])
+
+const anotherPerson={
+  name:"Uwimana",
+  age:30,
+  adresses:[
+{type:"home",street:"123-123 main strt", city:"Kigali"},//this is at index 0
+{type:"work", street:"345-120 main strt", city:"Gasabo"},//this is at index 1
+  ]
+}
+console.log(anotherPerson.adresses[1]);
+
+let people={
+  id:1,
+  id:2,
+  group1:[
+   { name:"kanjosi",age:20,height:"12mt" },
+   {name:"kanjogera",age:30,height:"30mt"},
+  ]
+}
+console.log(people.group1[1])
