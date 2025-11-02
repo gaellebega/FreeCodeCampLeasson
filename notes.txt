@@ -271,4 +271,24 @@ indexOf is the methos to return the first index of an array
 the array method of return the new array without  changing the original array
 concat method merges 2 arrays into one
 
-slice method return the new array without changing the orginalgit 
+slice method return the new array without changing the orginal one.
+
+what is the object in javascript : object is the fundamental data structure that allows you to store and organise related data and functionality
+
+const exmpleObj={
+  propertyName:value;
+}
+
+othe property name are like names , locations and schoolName
+
+we have 2 ways to access the properties of the object
+dot notation and bracket notation
+
+//we can also use the bracket notation to get the propety names dynameically.
+let propertyName="location";
+console.log(school[propertyName]);
+console.log(school.name)
+
+//when we wanna remove some objects we may also use the delete
+
+
