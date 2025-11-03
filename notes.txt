@@ -291,4 +291,4 @@ console.log(school.name)
 
 //when we wanna remove some objects we may also use the delete
 
-
+delet nameof the object.the property like this delete person.name;
