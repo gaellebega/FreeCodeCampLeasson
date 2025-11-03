@@ -234,4 +234,4 @@ if(true){
   let blockVar="i am in the block";
   console.log(blockVar);
 }
-//console.log(blockVar);//this will cz an error
+//console.log(blockVar);//this will throw an error
