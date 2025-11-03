@@ -88,6 +88,7 @@ let people={
   group1:[
    { name:"kanjosi",age:20,height:"12mt" },
    {name:"kanjogera",age:30,height:"30mt"},
+   {name:"Uwimana" ,age:80, height:"20mt"}
   ]
 }
 console.log(people.group1[1])
