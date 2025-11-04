@@ -32,3 +32,6 @@ const greetings=name=>{
 const greetings()=>{
   console.log("Hello")
 }
+
+there are severeal ways to create shallow copies of arrays
+like concat() and slice()
