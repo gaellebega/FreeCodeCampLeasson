@@ -292,3 +292,11 @@ console.log(school.name)
 //when we wanna remove some objects we may also use the delete
 
 delet nameof the object.the property like this delete person.name;
+
+primitive data tyoes these are the datatypes that can be reassigned to a new variable when they eant to be changed
+they represent single values of the character.
+
+non primitive these are the objects which include the normal objects such as functions arrays, and functions they can hold multiple values as properties or elements
+
+to remove the extra spaces we shall use the trim method to the end we use the trimEnd() and to the start we use the trimStart()
+const repeatedLove = "love ".repeat(3).trimEnd();
