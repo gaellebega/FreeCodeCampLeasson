@@ -315,3 +315,4 @@ the json.parse is used to convert back the json string into an object
 
 What Is Object Destructuring, and How Does It Work?
 Object destructuring is a powerful feature in JavaScript that allows you to extract values from objects and assign them to variables in a more concise and readable way.
+it also allow s you to set the values to varibales with different names 

@@ -36,3 +36,25 @@ const {name,location}=university;
 
 console.log(name);
 console.log(location);
+
+//we can also assign the extract values to varibale with different names this is when you are 
+//working with objects that havee property names that can be conflictiong with variables or when you want to use the different names
+
+let personal={
+name:"uwimana",
+location:"muhima",
+age:"80"
+}
+let {name:personName,location:place}=personal;
+console.log(personName);
+console.log(place);
+//it also allows you to set default values of the property doesnot exist in objects you are destructing you can specify a fallback value
+
+let individual = { name: "nuhoza", age: 12, city: "mudende" };
+let { izina, age, city, cite = "unknown" } = individual;
+console.log(cite);
+
+let names="Bob";
+let ages=30;
+let persons={name,age};
+console.log(persons);
