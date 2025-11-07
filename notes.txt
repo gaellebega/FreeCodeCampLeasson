@@ -310,7 +310,8 @@ is used to store and share data often between servers and a web applications
 "skills":["html","tailwindcss","javascript"]
 }
 there is no comments that are allowed in json
-
 the json stringfy is used to change the object insto the string like the result is the sting not  the objects
-
 the json.parse is used to convert back the json string into an object
+
+What Is Object Destructuring, and How Does It Work?
+Object destructuring is a powerful feature in JavaScript that allows you to extract values from objects and assign them to variables in a more concise and readable way.
