@@ -300,3 +300,17 @@ non primitive these are the objects which include the normal objects such as fun
 
 to remove the extra spaces we shall use the trim method to the end we use the trimEnd() and to the start we use the trimStart()
 const repeatedLove = "love ".repeat(3).trimEnd();
+
+JSON meaning this stands for javascript Object Nationit is a text based format that is commonly used to exchange data between server and web application.
+is used to store and share data often between servers and a web applications
+
+{
+  "name":"Ishami",
+  "age":20,
+"skills":["html","tailwindcss","javascript"]
+}
+there is no comments that are allowed in json
+
+the json stringfy is used to change the object insto the string like the result is the sting not  the objects
+
+the json.parse is used to convert back the json string into an object

@@ -1,0 +1,8 @@
+
+
+{
+  "name":"alice",
+  "age":30,
+  "issDtudent":"false",
+  "list of courses":["Maths"," Comp","English"]
+}
