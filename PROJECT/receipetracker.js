@@ -26,3 +26,28 @@ const recipe2 = {
   difficultyLevel: "",
   averageRating: null,
 };
+// Step 1: Create recipe1
+const recipe1 = {
+  name: "Pasta Bolognese",
+  ingredients: ["pasta", "ground beef", "tomato sauce", "onion", "garlic"],
+  ratings: [5, 4, 4, 5],
+  cookingTime: 30,
+  totalIngredients: null,
+  difficultyLevel: '',
+  averageRating: null
+};
+
+// Step 2: Create recipe2
+
+
+// Step 3: Access properties
+const recipe1Name = recipe1.name;
+const recipe2Name = recipe2.name;
+const recipe1CookingTime = recipe1.cookingTime;
+const recipe2CookingTime = recipe2.cookingTime;
+
+// Step 4: Log everything
+console.log(recipe1Name);
+console.log(recipe2Name);
+console.log(recipe1CookingTime);
+console.log(recipe2CookingTime);
