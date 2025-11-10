@@ -37,8 +37,15 @@ const recipe1 = {
   averageRating: null
 };
 
-// Step 2: Create recipe2
-
+const recipe3 = {
+  name: 'Vegetable Stir Fry',
+  ingredients: ['broccoli', 'carrot', 'bell pepper'],
+  cookingTime: 15,
+  totalIngredients: null,
+  difficultyLevel: '',
+  ratings: [4, 3, 4, 5],
+  averageRating: null,
+};
 
 // Step 3: Access properties
 const recipe1Name = recipe1.name;
