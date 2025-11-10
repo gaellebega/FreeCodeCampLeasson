@@ -51,3 +51,4 @@ console.log(recipe1Name);
 console.log(recipe2Name);
 console.log(recipe1CookingTime);
 console.log(recipe2CookingTime);
+recipes.push(recipe1,recipe2,recipe3)
