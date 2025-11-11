@@ -33,3 +33,12 @@ const recipe3 = {
 
 recipes.push(recipe1,recipe2,recipe3);
 console.log(recipes);
+
+function getAverageRating(ratings){
+  let total=0;
+  for(let i=0;i<ratings.length;i++){
+    total+=ratings[i];
+  }
+  const average=total/ratings.length;
+  return average;
+}
