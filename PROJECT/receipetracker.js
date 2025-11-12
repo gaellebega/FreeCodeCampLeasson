@@ -70,3 +70,8 @@ console.log(recipe1DifficultyLevel);
 recipe2.averageRating = getAverageRating(recipe2.ratings);
 recipe2.totalIngredients = getTotalIngredients(recipe2.ingredients)
 recipe2.difficultyLevel = getDifficultyLevel(recipe2.cookingTime)
+
+console.log(recipe3.averageRating);
+console.log(recipe3.totalIngredients);
+console.log(recipe3.difficultyLevel);
+console.log(recipes);
