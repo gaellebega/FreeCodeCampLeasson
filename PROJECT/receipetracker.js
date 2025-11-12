@@ -65,5 +65,8 @@ let recipe1AverageRating =getAverageRating(recipe1.ratings);
 console.log(recipe1AverageRating);
 let recipe1TotalIngredients=getTotalIngredients(recipe1.ingredients);
 console.log(recipe1TotalIngredients);
-let recipe1DifficultyLevel=getDifficultyLevel(receip1.cookingTime);
+let recipe1DifficultyLevel=getDifficultyLevel(recipe1.cookingTime);
 console.log(recipe1DifficultyLevel);
+recipe2.averageRating = getAverageRating(recipe2.ratings);
+recipe2.totalIngredients = getTotalIngredients(recipe2.ingredients)
+recipe2.difficultyLevel = getDifficultyLevel(recipe2.cookingTime)
