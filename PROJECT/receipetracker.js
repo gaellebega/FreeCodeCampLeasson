@@ -49,3 +49,14 @@ function getAverageRating(ratings){
 function getTotlaIngredients(ingredients){
 return ingredients.length;
 }
+function findCookingTime(cookingTime){
+  if (cookingTime>=60){
+    return "hard";
+  }
+  else if(cookingTime<=40){
+return "Medium";
+  }
+  else{
+    return"easy";
+  }
+}
