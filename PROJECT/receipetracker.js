@@ -43,3 +43,9 @@ function getAverageRating(ratings){
   const average=total/ratings.length;
   return average;
 }
+//create a fucntion that takes a single argument, representing an array with ingredients and return the number of in
+//gredients from an array passend to the function
+
+function getTotlaIngredients(ingredients){
+return ingredients.length;
+}
