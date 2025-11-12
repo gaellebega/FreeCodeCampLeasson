@@ -46,7 +46,7 @@ function getAverageRating(ratings){
 //create a fucntion that takes a single argument, representing an array with ingredients and return the number of in
 //gredients from an array passend to the function
 
-function getTotlaIngredients(ingredients){
+function getTotalIngredients(ingredients){
 return ingredients.length;
 }
 function findCookingTime(cookingTime){
@@ -60,3 +60,10 @@ return "Medium";
     return"easy";
   }
 }
+
+let recipe1AverageRating =getAverageRating(recipe1.ratings);
+console.log(recipe1AverageRating);
+let recipe1TotalIngredients=getTotalIngredients(recipe1.ingredients);
+console.log(recipe1TotalIngredients);
+let recipe1DifficultyLevel=getDifficultyLevel(receip1.cookingTime);
+console.log(recipe1DifficultyLevel);
