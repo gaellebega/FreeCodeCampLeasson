@@ -43,4 +43,10 @@ function getResults(question,computerchoice){
     return `The computer's choices is wrong. The correct answe is ${question.answer}`
   }
 }
-.
+const randomQuestion = getRandomQuestion(questions);
+const computerChoice = getRandomComputerChoice(randomQuestion.choices);
+const result = getResults(randomQuestion, computerChoice);
+
+console.log(randomQuestion);
+console.log("Computer choice:", computerChoice);
+console.log(result);
