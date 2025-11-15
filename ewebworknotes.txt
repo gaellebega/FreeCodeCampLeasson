@@ -1,0 +1,14 @@
+//when do we use the reduce methods
+What is the role of the reduce() method?
+👉 It reduces an entire array into ONE single value.
+
+That “one value” can be:
+
+a sum
+an average
+a maximum
+a minimum
+a product
+even an object
+But the key point is:
+➤ It takes many values → and reduces them to ONE value.
